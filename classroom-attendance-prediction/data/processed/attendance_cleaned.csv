@@ -1,0 +1,217 @@
+Date,Day_of_Week,Lecture_Number,Start_Time,End_Time,Subject,Faculty_ID,Semester,Branch,Section,Classroom,Total_Enrolled,Students_Present,Attendance_Percentage,Previous_Lecture_Attendance,Gap_Since_Previous_Lecture,Practical_Theory,Internal_Test_Week,Assignment_Due,Holiday_Before_After,Weather,Special_Event
+2026-06-22,Monday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,32,15.686274509803921,30,2 Days,Theory,No,No,No,Cloudy,No
+2026-06-22,Monday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,28,13.725490196078432,16,Same Day,Theory,No,Yes,Before,Cloudy,No
+2026-06-22,Monday,3,10.15 AM,11.15 AM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,39,19.11764705882353,36,2 Days,Theory,No,No,No,Cloudy,No
+2026-06-22,Monday,4,11.15 AM,12.15 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,25,12.254901960784313,19,3 Days,Theory,No,Yes,After,Sunny,No
+2026-06-22,Monday,5,1.30 PM,3.30 PM,STQA Practical,DPY_AAB,3,MCA,A&B,Computer Lab,204,30,14.705882352941178,20,1 Day,Practical,No,Yes,No,Sunny,No
+2026-06-23,Tuesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,31,15.196078431372548,14,1 Day,Theory,Yes,Yes,No,Sunny,No
+2026-06-23,Tuesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,21,10.294117647058822,15,2 Days,Theory,No,Yes,No,Sunny,Yes
+2026-06-23,Tuesday,3,10.15 AM,11.15 AM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,25,12.254901960784313,27,2 Days,Theory,No,No,No,Cloudy,No
+2026-06-23,Tuesday,4,11.15 AM,12.15 PM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,33,16.176470588235293,28,7 Days,Theory,No,No,No,Sunny,No
+2026-06-23,Tuesday,5,1.30 PM,3.30 PM,DS & ML Practical,MLK_SP,3,MCA,A&B,Computer Lab,204,32,15.686274509803921,39,2 Days,Practical,Yes,No,No,Cloudy,No
+2026-06-24,Wednesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,28,13.725490196078432,10,7 Days,Theory,No,No,Before,Sunny,No
+2026-06-24,Wednesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,39,19.11764705882353,14,Same Day,Theory,Yes,No,No,Sunny,No
+2026-06-24,Wednesday,3,10.15 AM,11.15 AM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,29,14.215686274509803,25,2 Days,Theory,Yes,No,No,Sunny,No
+2026-06-24,Wednesday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,35,17.15686274509804,12,3 Days,Theory,No,No,No,Sunny,Yes
+2026-06-24,Wednesday,5,1.30 PM,3.30 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,29,14.215686274509803,12,Same Day,Theory,No,No,No,Sunny,No
+2026-06-25,Thursday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,76,37.254901960784316,76,1 Day,Theory,No,No,No,Cloudy,No
+2026-06-25,Thursday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,76,37.254901960784316,37,Same Day,Theory,No,Yes,Before,Sunny,No
+2026-06-25,Thursday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,74,36.27450980392157,62,2 Days,Theory,No,Yes,No,Sunny,No
+2026-06-25,Thursday,4,11.15 AM,12.15 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,72,35.294117647058826,66,Same Day,Theory,No,No,No,Sunny,No
+2026-06-25,Thursday,5,1.30 PM,3.30 PM,Industry Readiness Program,IRP,3,MCA,A&B,Computer Lab,204,70,34.31372549019608,67,2 Days,Practical,No,No,No,Sunny,No
+2026-06-26,Friday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,30,14.705882352941178,19,7 Days,Theory,Yes,No,After,Sunny,No
+2026-06-26,Friday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,21,10.294117647058822,15,7 Days,Theory,Yes,No,No,Cloudy,No
+2026-06-26,Friday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,23,11.27450980392157,16,2 Days,Theory,No,No,No,Sunny,No
+2026-06-26,Friday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,34,16.666666666666664,17,3 Days,Theory,No,Yes,No,Rainy,No
+2026-06-26,Friday,5,1.30 PM,3.30 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,37,18.137254901960784,14,3 Days,Practical,Yes,No,Before,Sunny,No
+2026-06-27,Saturday,1,8.30 AM,9.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,29,14.215686274509803,25,Same Day,Practical,Yes,No,Before,Rainy,No
+2026-06-27,Saturday,2,9.15 AM,10.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,31,15.196078431372548,14,3 Days,Practical,No,No,No,Rainy,No
+2026-06-27,Saturday,4,11.15 AM,12.15 PM,Mini Project,SP,3,MCA,A&B,Computer Lab,204,27,13.23529411764706,24,3 Days,Practical,Yes,No,No,Sunny,Yes
+2026-06-29,Monday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,68,33.33333333333333,37,3 Days,Theory,No,No,Before,Sunny,No
+2026-06-29,Monday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,68,33.33333333333333,33,7 Days,Theory,No,Yes,No,Sunny,No
+2026-06-29,Monday,3,10.15 AM,11.15 AM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,65,31.862745098039213,74,1 Day,Theory,No,Yes,No,Rainy,No
+2026-06-29,Monday,4,11.15 AM,12.15 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,65,31.862745098039213,32,1 Day,Theory,Yes,No,Before,Rainy,No
+2026-06-29,Monday,5,1.30 PM,3.30 PM,STQA Practical,DPY_AAB,3,MCA,A&B,Computer Lab,204,62,30.392156862745097,69,2 Days,Practical,No,Yes,No,Sunny,No
+2026-06-30,Tuesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,55,26.96078431372549,33,2 Days,Theory,No,No,Before,Rainy,Yes
+2026-06-30,Tuesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,55,26.96078431372549,27,3 Days,Theory,No,No,No,Rainy,No
+2026-06-30,Tuesday,3,10.15 AM,11.15 AM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,52,25.49019607843137,67,2 Days,Theory,No,No,Before,Sunny,No
+2026-06-30,Tuesday,4,11.15 AM,12.15 PM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,50,24.509803921568626,36,2 Days,Theory,No,Yes,After,Sunny,No
+2026-06-30,Tuesday,5,1.30 PM,3.30 PM,DS & ML Practical,MLK_SP,3,MCA,A&B,Computer Lab,204,48,23.52941176470588,79,7 Days,Practical,Yes,No,No,Cloudy,Yes
+2026-07-01,Wednesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,26,12.745098039215685,10,Same Day,Theory,No,Yes,No,Sunny,No
+2026-07-01,Wednesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,26,12.745098039215685,13,7 Days,Theory,Yes,Yes,After,Sunny,Yes
+2026-07-01,Wednesday,3,10.15 AM,11.15 AM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,29,14.215686274509803,18,1 Day,Theory,No,No,No,Sunny,No
+2026-07-01,Wednesday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,21,10.294117647058822,17,3 Days,Theory,No,Yes,After,Sunny,No
+2026-07-01,Wednesday,5,1.30 PM,3.30 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,26,12.745098039215685,14,7 Days,Theory,Yes,No,No,Sunny,No
+2026-07-02,Thursday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,72,35.294117647058826,27,1 Day,Theory,No,No,No,Sunny,Yes
+2026-07-02,Thursday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,72,35.294117647058826,35,7 Days,Theory,Yes,Yes,No,Sunny,No
+2026-07-02,Thursday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,68,33.33333333333333,25,1 Day,Theory,No,Yes,No,Sunny,No
+2026-07-02,Thursday,4,11.15 AM,12.15 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,65,31.862745098039213,35,7 Days,Theory,No,Yes,No,Sunny,No
+2026-07-02,Thursday,5,1.30 PM,3.30 PM,Industry Readiness Program,IRP,3,MCA,A&B,Computer Lab,204,60,29.411764705882355,34,1 Day,Practical,No,Yes,After,Sunny,No
+2026-07-03,Friday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,55,26.96078431372549,35,2 Days,Theory,No,Yes,No,Sunny,No
+2026-07-03,Friday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,55,26.96078431372549,27,3 Days,Theory,No,No,No,Cloudy,Yes
+2026-07-03,Friday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,50,24.509803921568626,33,1 Day,Theory,Yes,No,After,Cloudy,No
+2026-07-03,Friday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,48,23.52941176470588,25,Same Day,Theory,No,No,After,Sunny,No
+2026-07-03,Friday,5,1.30 PM,3.30 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,45,22.058823529411764,32,Same Day,Theory,No,Yes,No,Sunny,No
+2026-07-04,Saturday,1,8.30 AM,9.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,24,11.76470588235294,15,7 Days,Practical,Yes,No,After,Cloudy,No
+2026-07-04,Saturday,2,9.15 AM,10.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,28,13.725490196078432,12,3 Days,Practical,Yes,Yes,Before,Cloudy,No
+2026-07-04,Saturday,4,11.15 AM,12.15 PM,Mini Project,SP,3,MCA,A&B,Computer Lab,204,38,18.627450980392158,13,2 Days,Practical,No,Yes,No,Sunny,Yes
+2026-07-06,Monday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,20,9.803921568627452,13,3 Days,Theory,Yes,No,No,Sunny,Yes
+2026-07-06,Monday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,37,18.137254901960784,10,1 Day,Theory,No,No,No,Cloudy,No
+2026-07-06,Monday,3,10.15 AM,11.15 AM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,38,18.627450980392158,13,7 Days,Theory,No,No,No,Sunny,No
+2026-07-06,Monday,4,11.15 AM,12.15 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,37,18.137254901960784,19,2 Days,Theory,Yes,No,Before,Cloudy,No
+2026-07-06,Monday,5,1.30 PM,3.30 PM,STQA Practical,DPY_AAB,3,MCA,A&B,Computer Lab,204,23,11.27450980392157,15,2 Days,Practical,No,No,No,Sunny,Yes
+2026-07-07,Tuesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,26,12.745098039215685,18,2 Days,Theory,No,Yes,After,Sunny,No
+2026-07-07,Tuesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,24,11.76470588235294,13,2 Days,Theory,No,No,After,Sunny,No
+2026-07-07,Tuesday,3,10.15 AM,11.15 AM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,31,15.196078431372548,10,Same Day,Theory,No,No,No,Rainy,No
+2026-07-07,Tuesday,4,11.15 AM,12.15 PM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,26,12.745098039215685,11,2 Days,Theory,No,No,Before,Sunny,No
+2026-07-07,Tuesday,5,1.30 PM,3.30 PM,DS & ML Practical,MLK_SP,3,MCA,A&B,Computer Lab,204,27,13.23529411764706,16,1 Day,Practical,No,Yes,Before,Sunny,No
+2026-07-08,Wednesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,25,12.254901960784313,12,7 Days,Theory,No,No,No,Sunny,No
+2026-07-08,Wednesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,38,18.627450980392158,12,1 Day,Theory,No,No,No,Sunny,No
+2026-07-08,Wednesday,3,10.15 AM,11.15 AM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,37,18.137254901960784,14,3 Days,Theory,No,No,Before,Sunny,No
+2026-07-08,Wednesday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,31,15.196078431372548,15,Same Day,Theory,No,No,No,Sunny,No
+2026-07-08,Wednesday,5,1.30 PM,3.30 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,28,13.725490196078432,18,2 Days,Theory,No,Yes,No,Rainy,No
+2026-07-09,Thursday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,58,28.431372549019606,27,Same Day,Theory,Yes,No,No,Cloudy,No
+2026-07-09,Thursday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,58,28.431372549019606,28,Same Day,Theory,No,Yes,No,Sunny,No
+2026-07-09,Thursday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,55,26.96078431372549,25,1 Day,Theory,No,No,No,Rainy,No
+2026-07-09,Thursday,4,11.15 AM,12.15 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,52,25.49019607843137,22,3 Days,Theory,Yes,No,After,Cloudy,Yes
+2026-07-09,Thursday,5,1.30 PM,3.30 PM,Industry Readiness Program,IRP,3,MCA,A&B,Computer Lab,204,50,24.509803921568626,29,2 Days,Practical,Yes,No,No,Sunny,No
+2026-07-10,Friday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,80,39.21568627450981,28,3 Days,Theory,Yes,No,Before,Sunny,No
+2026-07-10,Friday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,80,39.21568627450981,39,3 Days,Theory,No,No,No,Cloudy,Yes
+2026-07-10,Friday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,75,36.76470588235294,27,7 Days,Theory,No,No,Before,Cloudy,No
+2026-07-10,Friday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,73,35.78431372549019,24,Same Day,Theory,No,No,After,Sunny,No
+2026-07-10,Friday,5,1.30 PM,3.30 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,70,34.31372549019608,25,2 Days,Theory,No,No,Before,Sunny,No
+2026-07-11,Saturday,1,8.30 AM,9.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,33,16.176470588235293,14,2 Days,Practical,No,Yes,Before,Sunny,No
+2026-07-11,Saturday,2,9.15 AM,10.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,27,13.23529411764706,16,2 Days,Practical,No,No,No,Sunny,No
+2026-07-11,Saturday,4,11.15 AM,12.15 PM,Mini Project,SP,3,MCA,A&B,Computer Lab,204,26,12.745098039215685,19,2 Days,Practical,No,No,No,Cloudy,Yes
+2026-07-13,Monday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,33,16.176470588235293,19,1 Day,Theory,No,Yes,Before,Sunny,No
+2026-07-13,Monday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,25,12.254901960784313,16,2 Days,Theory,No,No,No,Sunny,Yes
+2026-07-13,Monday,3,10.15 AM,11.15 AM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,22,10.784313725490197,14,Same Day,Theory,No,No,After,Sunny,No
+2026-07-13,Monday,4,11.15 AM,12.15 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,23,11.27450980392157,11,Same Day,Theory,No,No,No,Sunny,No
+2026-07-13,Monday,5,1.30 PM,3.30 PM,STQA Practical,DPY_AAB,3,MCA,A&B,Computer Lab,204,25,12.254901960784313,11,2 Days,Practical,No,No,No,Sunny,No
+2026-07-14,Tuesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,33,16.176470588235293,12,Same Day,Theory,No,No,No,Rainy,Yes
+2026-07-14,Tuesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,30,14.705882352941178,16,2 Days,Theory,No,Yes,No,Sunny,No
+2026-07-14,Tuesday,3,10.15 AM,11.15 AM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,21,10.294117647058822,15,2 Days,Theory,No,Yes,No,Cloudy,No
+2026-07-14,Tuesday,4,11.15 AM,12.15 PM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,28,13.725490196078432,13,Same Day,Theory,No,No,No,Sunny,No
+2026-07-14,Tuesday,5,1.30 PM,3.30 PM,DS & ML Practical,MLK_SP,3,MCA,A&B,Computer Lab,204,31,15.196078431372548,13,2 Days,Practical,No,Yes,No,Cloudy,No
+2026-07-15,Wednesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,21,10.294117647058822,15,3 Days,Theory,No,No,After,Sunny,No
+2026-07-15,Wednesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,20,9.803921568627452,10,3 Days,Theory,Yes,No,After,Cloudy,No
+2026-07-15,Wednesday,3,10.15 AM,11.15 AM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,20,9.803921568627452,18,2 Days,Theory,No,No,No,Sunny,No
+2026-07-15,Wednesday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,22,10.784313725490197,10,7 Days,Theory,No,Yes,Before,Sunny,No
+2026-07-15,Wednesday,5,1.30 PM,3.30 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,35,17.15686274509804,11,Same Day,Theory,Yes,Yes,No,Rainy,No
+2026-07-16,Thursday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,23,11.27450980392157,10,Same Day,Theory,No,No,No,Cloudy,No
+2026-07-16,Thursday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,30,14.705882352941178,11,1 Day,Theory,No,No,After,Sunny,No
+2026-07-16,Thursday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,26,12.745098039215685,14,7 Days,Theory,No,Yes,No,Sunny,No
+2026-07-16,Thursday,4,11.15 AM,12.15 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,23,11.27450980392157,10,3 Days,Theory,Yes,Yes,Before,Sunny,No
+2026-07-16,Thursday,5,1.30 PM,3.30 PM,Industry Readiness Program,IRP,3,MCA,A&B,Computer Lab,204,36,17.647058823529413,32,Same Day,Practical,No,No,Before,Cloudy,No
+2026-07-17,Friday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,38,18.627450980392158,15,7 Days,Theory,Yes,No,After,Sunny,No
+2026-07-17,Friday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,21,10.294117647058822,19,1 Day,Theory,No,No,No,Sunny,Yes
+2026-07-17,Friday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,38,18.627450980392158,13,1 Day,Theory,No,No,No,Cloudy,No
+2026-07-17,Friday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,20,9.803921568627452,11,3 Days,Theory,No,No,No,Cloudy,No
+2026-07-17,Friday,5,1.30 PM,3.30 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,23,11.27450980392157,11,2 Days,Practical,Yes,No,No,Sunny,No
+2026-07-18,Saturday,1,8.30 AM,9.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,36,17.647058823529413,13,3 Days,Practical,No,No,No,Sunny,Yes
+2026-07-18,Saturday,2,9.15 AM,10.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,22,10.784313725490197,18,7 Days,Practical,Yes,No,No,Sunny,No
+2026-07-18,Saturday,4,11.15 AM,12.15 PM,Mini Project,SP,3,MCA,A&B,Computer Lab,204,26,12.745098039215685,13,3 Days,Practical,Yes,No,After,Rainy,No
+2026-07-20,Monday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,34,16.666666666666664,10,2 Days,Theory,No,No,After,Cloudy,Yes
+2026-07-20,Monday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,27,13.23529411764706,17,3 Days,Theory,No,No,After,Sunny,No
+2026-07-20,Monday,3,10.15 AM,11.15 AM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,38,18.627450980392158,17,3 Days,Theory,Yes,Yes,No,Sunny,No
+2026-07-20,Monday,4,11.15 AM,12.15 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,22,10.784313725490197,19,7 Days,Theory,No,No,No,Cloudy,No
+2026-07-20,Monday,5,1.30 PM,3.30 PM,STQA Practical,DPY_AAB,3,MCA,A&B,Computer Lab,204,27,13.23529411764706,12,2 Days,Practical,No,No,No,Rainy,No
+2026-07-21,Tuesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,37,18.137254901960784,13,1 Day,Theory,No,No,No,Cloudy,No
+2026-07-21,Tuesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,32,15.686274509803921,18,Same Day,Theory,No,No,No,Sunny,Yes
+2026-07-21,Tuesday,3,10.15 AM,11.15 AM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,39,19.11764705882353,10,2 Days,Theory,No,No,No,Rainy,Yes
+2026-07-21,Tuesday,4,11.15 AM,12.15 PM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,27,13.23529411764706,19,Same Day,Theory,Yes,Yes,Before,Cloudy,Yes
+2026-07-21,Tuesday,5,1.30 PM,3.30 PM,DS & ML Practical,MLK_SP,3,MCA,A&B,Computer Lab,204,31,15.196078431372548,15,2 Days,Practical,No,No,No,Sunny,Yes
+2026-07-22,Wednesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,31,15.196078431372548,16,2 Days,Theory,Yes,No,No,Sunny,No
+2026-07-22,Wednesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,37,18.137254901960784,15,3 Days,Theory,No,Yes,No,Sunny,Yes
+2026-07-22,Wednesday,3,10.15 AM,11.15 AM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,29,14.215686274509803,11,3 Days,Theory,Yes,No,No,Sunny,No
+2026-07-22,Wednesday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,22,10.784313725490197,19,7 Days,Theory,Yes,Yes,After,Sunny,No
+2026-07-22,Wednesday,5,1.30 PM,3.30 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,38,18.627450980392158,11,3 Days,Theory,No,No,No,Cloudy,No
+2026-07-23,Thursday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,28,13.725490196078432,18,1 Day,Theory,No,No,No,Sunny,No
+2026-07-23,Thursday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,38,18.627450980392158,14,Same Day,Theory,No,No,Before,Cloudy,No
+2026-07-23,Thursday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,24,11.76470588235294,13,1 Day,Theory,No,No,No,Sunny,Yes
+2026-07-23,Thursday,4,11.15 AM,12.15 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,37,18.137254901960784,14,3 Days,Theory,No,No,Before,Sunny,No
+2026-07-23,Thursday,5,1.30 PM,3.30 PM,Industry Readiness Program,IRP,3,MCA,A&B,Computer Lab,204,20,9.803921568627452,18,2 Days,Practical,Yes,Yes,No,Sunny,No
+2026-07-24,Friday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,27,13.23529411764706,19,1 Day,Theory,No,No,No,Rainy,Yes
+2026-07-24,Friday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,24,11.76470588235294,13,Same Day,Theory,No,No,No,Cloudy,No
+2026-07-24,Friday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,34,16.666666666666664,12,Same Day,Theory,Yes,No,No,Cloudy,No
+2026-07-24,Friday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,39,19.11764705882353,11,2 Days,Theory,Yes,No,No,Sunny,No
+2026-07-24,Friday,5,1.30 PM,3.30 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,29,14.215686274509803,18,1 Day,Practical,No,No,No,Sunny,No
+2026-07-25,Saturday,1,8.30 AM,9.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,38,18.627450980392158,11,3 Days,Practical,Yes,No,No,Sunny,No
+2026-07-25,Saturday,2,9.15 AM,10.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,24,11.76470588235294,19,3 Days,Practical,No,Yes,No,Sunny,No
+2026-07-25,Saturday,4,11.15 AM,12.15 PM,Mini Project,SP,3,MCA,A&B,Computer Lab,204,25,12.254901960784313,13,3 Days,Practical,Yes,No,Before,Sunny,No
+2026-07-27,Monday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,45,22.058823529411764,39,1 Day,Theory,No,No,No,Sunny,No
+2026-07-27,Monday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,45,22.058823529411764,22,7 Days,Theory,No,No,After,Sunny,No
+2026-07-27,Monday,3,10.15 AM,11.15 AM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,42,20.588235294117645,32,2 Days,Theory,No,Yes,After,Sunny,No
+2026-07-27,Monday,4,11.15 AM,12.15 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,42,20.588235294117645,21,Same Day,Theory,Yes,Yes,After,Cloudy,No
+2026-07-27,Monday,5,1.30 PM,3.30 PM,STQA Practical,DPY_AAB,3,MCA,A&B,Computer Lab,204,40,19.607843137254903,30,1 Day,Practical,No,No,After,Sunny,No
+2026-07-28,Tuesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,88,43.13725490196079,22,Same Day,Theory,No,Yes,After,Sunny,Yes
+2026-07-28,Tuesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,88,43.13725490196079,43,Same Day,Theory,No,No,No,Rainy,No
+2026-07-28,Tuesday,3,10.15 AM,11.15 AM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,85,41.66666666666667,36,2 Days,Theory,No,No,No,Sunny,No
+2026-07-28,Tuesday,4,11.15 AM,12.15 PM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,82,40.19607843137255,37,Same Day,Theory,No,No,After,Cloudy,Yes
+2026-07-28,Tuesday,5,1.30 PM,3.30 PM,DS & ML Practical,MLK_SP,3,MCA,A&B,Computer Lab,204,80,39.21568627450981,24,3 Days,Practical,No,No,No,Rainy,No
+2026-07-29,Wednesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,78,38.23529411764706,43,Same Day,Theory,No,Yes,After,Sunny,Yes
+2026-07-29,Wednesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,78,38.23529411764706,38,1 Day,Theory,No,No,No,Sunny,Yes
+2026-07-29,Wednesday,3,10.15 AM,11.15 AM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,75,36.76470588235294,34,3 Days,Theory,No,Yes,No,Cloudy,No
+2026-07-29,Wednesday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,72,35.294117647058826,42,3 Days,Theory,No,No,Before,Rainy,No
+2026-07-29,Wednesday,5,1.30 PM,3.30 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,70,34.31372549019608,21,2 Days,Theory,No,No,Before,Sunny,No
+2026-07-30,Thursday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,39,19.11764705882353,12,7 Days,Theory,No,Yes,No,Sunny,No
+2026-07-30,Thursday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,27,13.23529411764706,19,1 Day,Theory,No,Yes,No,Rainy,No
+2026-07-30,Thursday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,30,14.705882352941178,17,3 Days,Theory,Yes,No,No,Rainy,No
+2026-07-30,Thursday,4,11.15 AM,12.15 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,20,9.803921568627452,14,Same Day,Theory,Yes,No,No,Sunny,No
+2026-07-30,Thursday,5,1.30 PM,3.30 PM,Industry Readiness Program,IRP,3,MCA,A&B,Computer Lab,204,25,12.254901960784313,10,Same Day,Practical,No,Yes,After,Sunny,Yes
+2026-07-31,Friday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,32,15.686274509803921,13,Same Day,Theory,No,No,No,Sunny,No
+2026-07-31,Friday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,32,15.686274509803921,16,7 Days,Theory,No,No,No,Sunny,No
+2026-07-31,Friday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,27,13.23529411764706,15,7 Days,Theory,No,No,Before,Cloudy,No
+2026-07-31,Friday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,22,10.784313725490197,19,1 Day,Theory,No,No,Before,Sunny,No
+2026-07-31,Friday,5,1.30 PM,3.30 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,28,13.725490196078432,10,3 Days,Practical,No,No,After,Sunny,Yes
+2026-08-01,Saturday,1,8.30 AM,9.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,52,25.49019607843137,74,1 Day,Practical,No,Yes,No,Sunny,No
+2026-08-01,Saturday,2,9.15 AM,10.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,52,25.49019607843137,25,Same Day,Practical,No,No,No,Sunny,No
+2026-08-01,Saturday,4,11.15 AM,12.15 PM,Mini Project,SP,3,MCA,A&B,Computer Lab,204,48,23.52941176470588,69,1 Day,Practical,No,No,No,Sunny,No
+2026-08-03,Monday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,33,16.176470588235293,16,3 Days,Theory,No,Yes,No,Sunny,Yes
+2026-08-03,Monday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,31,15.196078431372548,16,7 Days,Theory,Yes,No,No,Sunny,Yes
+2026-08-03,Monday,3,10.15 AM,11.15 AM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,35,17.15686274509804,19,Same Day,Theory,No,Yes,Before,Sunny,No
+2026-08-03,Monday,4,11.15 AM,12.15 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,23,11.27450980392157,17,1 Day,Theory,Yes,No,No,Rainy,No
+2026-08-03,Monday,5,1.30 PM,3.30 PM,STQA Practical,DPY_AAB,3,MCA,A&B,Computer Lab,204,20,9.803921568627452,13,7 Days,Practical,No,No,No,Cloudy,No
+2026-08-04,Tuesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,37,18.137254901960784,15,Same Day,Theory,No,No,No,Sunny,No
+2026-08-04,Tuesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,24,11.76470588235294,18,3 Days,Theory,No,No,No,Sunny,No
+2026-08-04,Tuesday,3,10.15 AM,11.15 AM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,21,10.294117647058822,11,2 Days,Theory,No,No,After,Sunny,No
+2026-08-04,Tuesday,4,11.15 AM,12.15 PM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,34,16.666666666666664,13,7 Days,Theory,No,No,No,Rainy,No
+2026-08-04,Tuesday,5,1.30 PM,3.30 PM,DS & ML Practical,MLK_SP,3,MCA,A&B,Computer Lab,204,29,14.215686274509803,15,7 Days,Practical,No,No,After,Sunny,No
+2026-08-05,Wednesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,82,40.19607843137255,38,7 Days,Theory,No,No,No,Cloudy,No
+2026-08-05,Wednesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,82,40.19607843137255,40,3 Days,Theory,Yes,Yes,No,Rainy,No
+2026-08-05,Wednesday,3,10.15 AM,11.15 AM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,79,38.72549019607843,37,1 Day,Theory,Yes,No,Before,Cloudy,No
+2026-08-05,Wednesday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,76,37.254901960784316,35,7 Days,Theory,No,No,No,Cloudy,No
+2026-08-05,Wednesday,5,1.30 PM,3.30 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,74,36.27450980392157,34,7 Days,Theory,No,No,No,Rainy,No
+2026-08-06,Thursday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,75,36.76470588235294,40,7 Days,Theory,No,No,No,Rainy,No
+2026-08-06,Thursday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,75,36.76470588235294,37,3 Days,Theory,No,No,After,Sunny,No
+2026-08-06,Thursday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,70,34.31372549019608,40,3 Days,Theory,Yes,Yes,After,Sunny,No
+2026-08-06,Thursday,4,11.15 AM,12.15 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,68,33.33333333333333,39,2 Days,Theory,No,No,Before,Sunny,Yes
+2026-08-06,Thursday,5,1.30 PM,3.30 PM,Industry Readiness Program,IRP,3,MCA,A&B,Computer Lab,204,65,31.862745098039213,25,Same Day,Practical,No,No,Before,Sunny,No
+2026-08-07,Friday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,62,30.392156862745097,37,1 Day,Theory,No,Yes,No,Sunny,No
+2026-08-07,Friday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,62,30.392156862745097,30,3 Days,Theory,No,No,Before,Sunny,No
+2026-08-07,Friday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,58,28.431372549019606,34,3 Days,Theory,Yes,Yes,No,Rainy,No
+2026-08-07,Friday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,55,26.96078431372549,37,Same Day,Theory,No,No,Before,Sunny,No
+2026-08-07,Friday,5,1.30 PM,3.30 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,52,25.49019607843137,33,2 Days,Practical,No,No,After,Sunny,No
+2026-08-08,Saturday,1,8.30 AM,9.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,32,15.686274509803921,12,3 Days,Practical,No,No,Before,Rainy,No
+2026-08-08,Saturday,2,9.15 AM,10.15 AM,MAD Practical,SSP_ASP,3,MCA,A&B,Computer Lab,204,35,17.15686274509804,16,1 Day,Practical,Yes,No,No,Sunny,Yes
+2026-08-08,Saturday,4,11.15 AM,12.15 PM,Mini Project,SP,3,MCA,A&B,Computer Lab,204,22,10.784313725490197,12,1 Day,Practical,No,No,No,Sunny,No
+2026-08-10,Monday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,31,15.196078431372548,12,3 Days,Theory,No,Yes,No,Rainy,No
+2026-08-10,Monday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,32,15.686274509803921,15,Same Day,Theory,No,Yes,No,Sunny,No
+2026-08-10,Monday,3,10.15 AM,11.15 AM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,22,10.784313725490197,11,1 Day,Theory,No,Yes,No,Sunny,No
+2026-08-10,Monday,4,11.15 AM,12.15 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,32,15.686274509803921,11,2 Days,Theory,No,No,No,Sunny,No
+2026-08-10,Monday,5,1.30 PM,3.30 PM,STQA Practical,DPY_AAB,3,MCA,A&B,Computer Lab,204,37,18.137254901960784,10,2 Days,Practical,No,No,No,Cloudy,No
+2026-08-11,Tuesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,28,13.725490196078432,16,2 Days,Theory,No,Yes,After,Sunny,No
+2026-08-11,Tuesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,24,11.76470588235294,14,3 Days,Theory,No,No,No,Sunny,No
+2026-08-11,Tuesday,3,10.15 AM,11.15 AM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,29,14.215686274509803,10,Same Day,Theory,No,No,No,Cloudy,No
+2026-08-11,Tuesday,4,11.15 AM,12.15 PM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,27,13.23529411764706,17,7 Days,Theory,No,Yes,No,Sunny,No
+2026-08-11,Tuesday,5,1.30 PM,3.30 PM,DS & ML Practical,MLK_SP,3,MCA,A&B,Computer Lab,204,20,9.803921568627452,14,2 Days,Practical,No,No,Before,Rainy,No
+2026-08-12,Wednesday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,39,19.11764705882353,12,2 Days,Theory,Yes,Yes,Before,Rainy,No
+2026-08-12,Wednesday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,26,12.745098039215685,19,2 Days,Theory,No,Yes,No,Cloudy,No
+2026-08-12,Wednesday,3,10.15 AM,11.15 AM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,34,16.666666666666664,14,1 Day,Theory,No,No,No,Cloudy,No
+2026-08-12,Wednesday,4,11.15 AM,12.15 PM,Principles of Cloud Management and Security,KSD_SDM,3,MCA,A&B,Computer Lab,204,33,16.176470588235293,14,1 Day,Theory,No,No,No,Cloudy,No
+2026-08-12,Wednesday,5,1.30 PM,3.30 PM,Innovation and Entrepreneurship Development,JSP,3,MCA,A&B,Computer Lab,204,23,11.27450980392157,16,1 Day,Theory,No,No,No,Rainy,No
+2026-08-13,Thursday,1,8.30 AM,9.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,25,12.254901960784313,13,7 Days,Theory,No,No,No,Sunny,No
+2026-08-13,Thursday,2,9.15 AM,10.15 AM,Mobile Application Development,SSP,3,MCA,A&B,Computer Lab,204,36,17.647058823529413,12,3 Days,Theory,No,No,No,Rainy,No
+2026-08-13,Thursday,3,10.15 AM,11.15 AM,Data Science & Machine Learning,SP_MLK,3,MCA,A&B,Computer Lab,204,39,19.11764705882353,13,2 Days,Theory,No,No,After,Sunny,No
+2026-08-13,Thursday,4,11.15 AM,12.15 PM,Software Testing and Quality Assurance,DPY_AAB,3,MCA,A&B,Computer Lab,204,27,13.23529411764706,17,7 Days,Theory,No,No,After,Sunny,No
+2026-08-13,Thursday,5,1.30 PM,3.30 PM,Industry Readiness Program,IRP,3,MCA,A&B,Computer Lab,204,23,11.27450980392157,12,2 Days,Practical,Yes,No,No,Cloudy,No

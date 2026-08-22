@@ -1,0 +1,4 @@
+# Ignore Antigravity agent configuration and workspaces
+.agents/
+AGENTS.md
+.gemini/
