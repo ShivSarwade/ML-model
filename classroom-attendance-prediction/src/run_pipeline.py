@@ -72,6 +72,9 @@ def main():
     # Phase 5: Final Evaluation on Test Set
     run_script(os.path.join(base_dir, "final_validation.py"), "Phase 5: Final Validation on Test Set")
     
+    # Phase 6: Aggregate and Save All Models for Dashboard
+    run_script(os.path.join(base_dir, "save_all_models.py"), "Phase 6: Saving All Models for Dashboard Inference")
+    
     print(f"\n{'*'*60}")
     print("[SUCCESS] PIPELINE EXECUTION COMPLETE!")
     print("All models successfully trained and evaluated.")
