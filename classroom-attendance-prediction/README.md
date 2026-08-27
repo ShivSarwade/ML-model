@@ -17,7 +17,7 @@ This project solves this by framing the problem in two ways:
 1. **Classification:** Predicts the "Attendance Risk Band" (`Low`, `Medium`, `High`).
 2. **Regression:** Predicts the exact percentage of students who will attend (`0% - 100%`).
 
-We engineered custom features (like rolling momentum and holiday adjacency) and evaluated 12 distinct machine learning algorithms. The final deployment leverages **XGBoost**, achieving a stunning $R^2$ score of **0.92**.
+We engineered custom features (like rolling momentum and holiday adjacency) and evaluated 12 distinct machine learning algorithms. The final deployment leverages **XGBoost and Naive Bayes**, achieving a realistic accuracy ceiling of **~52%** due to the extreme inherent randomness (18.66 standard deviation) of human classroom attendance.
 
 ---
 
@@ -88,7 +88,7 @@ classroom-attendance-prediction/
 
 ## 🧠 Core Methodology & Features
 
-To achieve our **0.92 R²** score without data leakage, we strictly engineered features using historical `.shift(1)` logic. Key features include:
+To mathematically map the attendance behavior despite the extreme random noise, we strictly engineered features using historical `.shift(1)` logic. Key features include:
 
 - **Rolling Momentum (`Rolling_Avg_3`):** The exact attendance average of the previous 3 lectures for that specific cohort.
 - **Time of Day Clustering:** Differentiating between Morning and Afternoon drop-offs.

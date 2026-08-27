@@ -10,21 +10,27 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 from xgboost import XGBClassifier
+from sklearn.linear_model import LinearRegression
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from xgboost import XGBRegressor
 
 print("Starting Pipeline Export...")
 
 base_dir = r"d:\coding\ML model\classroom-attendance-prediction"
-data_dir = os.path.join(base_dir, "data", "processed")
+data_dir = r"d:\coding\ML model\attendance_prediction\data\processed"
 export_dir = os.path.join(base_dir, "deployment_assets")
 os.makedirs(export_dir, exist_ok=True)
 
 # 1. Load the raw chronologically split training data to rebuild the scaler and weights
 train_df = pd.read_csv(os.path.join(data_dir, 'train.csv'))
 val_df = pd.read_csv(os.path.join(data_dir, 'val.csv'))
+# Drop rows with NaNs (first few lectures before rolling averages can compute)
+train_df.dropna(inplace=True)
+val_df.dropna(inplace=True)
 
-# One-hot encode categorical variables for both
-train_df = pd.get_dummies(train_df, columns=['Day_of_Week', 'Subject', 'Weather', 'Time_of_Day', 'Practical_Theory'])
-val_df = pd.get_dummies(val_df, columns=['Day_of_Week', 'Subject', 'Weather', 'Time_of_Day', 'Practical_Theory'])
+# Data is already one-hot encoded by the ML pipeline
+pass
 
 # Align columns
 val_df = val_df.reindex(columns=train_df.columns, fill_value=0)
@@ -32,10 +38,10 @@ val_df = val_df.reindex(columns=train_df.columns, fill_value=0)
 global_mean = train_df['Attendance_Percentage'].mean()
 
 def calculate_momentum(df):
-    return (0.40 * df['Monthly_Avg_Attendance']) + (0.60 * df['Rolling_Avg_3'])
+    return (0.40 * df['Monthly_Expanding_Mean']) + (0.60 * df['Rolling_Avg_3_Lectures'])
 
 train_df['Base_Momentum'] = calculate_momentum(train_df)
-binary_cols = ['Is_Post_Lunch_Class', 'Is_Holiday_Adjacent', 'Week_Before_Exam'] + [c for c in train_df.columns if c.startswith(('Weather_', 'Subject_', 'Day_of_Week_', 'Practical_Theory_', 'Time_of_Day_'))]
+binary_cols = ['Is_Post_Lunch_Class', 'Is_Holiday_Adjacent', 'Week_Before_Exam_Flag'] + [c for c in train_df.columns if c.startswith(('Weather_', 'Subject_', 'Day_of_Week_', 'Practical_Theory_', 'Time_of_Day_'))]
 
 affection_rates = {}
 for col in binary_cols:
@@ -56,7 +62,7 @@ def calculate_expected_and_residual(df, rates):
 train_df['Expected_Attendance'], train_df['Residual'] = calculate_expected_and_residual(train_df, affection_rates)
 train_df['Attendance_Class'], residual_bins = pd.qcut(train_df['Residual'], q=3, labels=['Low', 'Medium', 'High'], retbins=True)
 
-targets_to_drop = ['Attendance_Percentage', 'Attendance_Class', 'Expected_Attendance', 'Residual', 'Base_Momentum']
+targets_to_drop = ['Attendance_Percentage', 'Attendance_Class', 'Expected_Attendance', 'Residual', 'Base_Momentum', 'Students_Present', 'Total_Enrolled', 'Semester']
 y_train_raw = train_df['Attendance_Class']
 X_train = train_df.drop(columns=[col for col in targets_to_drop if col in train_df.columns])
 
@@ -93,6 +99,24 @@ for name, model in models.items():
     print(f"Training {name}...")
     model.fit(X_train_scaled, y_train)
     filename = name.replace(" ", "_").replace("-", "").lower() + ".pkl"
+    joblib.dump(model, os.path.join(export_dir, filename))
+    print(f"Exported {filename}")
+
+# 3. Train and Export all Regression Models
+print("Starting Regression Model Export...")
+y_train_reg = train_df['Attendance_Percentage']
+reg_models = {
+    "Linear Regression": LinearRegression(),
+    "Decision Tree Regressor": DecisionTreeRegressor(max_depth=5, random_state=42),
+    "Random Forest Regressor": RandomForestRegressor(n_estimators=100, max_depth=10, random_state=42, n_jobs=-1),
+    "Gradient Boosting Regressor": GradientBoostingRegressor(n_estimators=100, learning_rate=0.1, max_depth=5, random_state=42),
+    "XGBoost Regressor": XGBRegressor(n_estimators=150, learning_rate=0.1, max_depth=5, random_state=42, n_jobs=-1)
+}
+
+for name, model in reg_models.items():
+    print(f"Training {name}...")
+    model.fit(X_train_scaled, y_train_reg)
+    filename = name.replace(" ", "_").replace("-", "").lower() + "_reg.pkl"
     joblib.dump(model, os.path.join(export_dir, filename))
     print(f"Exported {filename}")
 
