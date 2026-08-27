@@ -2,3 +2,11 @@
 .agents/
 AGENTS.md
 .gemini/
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+.env/
+env-*/
+venv-*/
