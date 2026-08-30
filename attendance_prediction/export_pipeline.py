@@ -76,10 +76,33 @@ models = {
 }
 
 for name, model in models.items():
-    print(f"Training {name}...")
+    print(f"Training {name} (Classification)...")
     model.fit(X_train_scaled, y_train)
     filename = name.replace(" ", "_").replace("-", "").lower() + ".pkl"
     joblib.dump(model, os.path.join(export_dir, filename))
     print(f"Exported {filename}")
 
-print("✅ Pipeline export complete. Ready for Streamlit deployment.")
+# 3. Train and Export all Regression Models
+from sklearn.linear_model import LinearRegression
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from xgboost import XGBRegressor
+
+y_train_reg = train_df['Attendance_Percentage']
+
+reg_models = {
+    "linear_regression_reg": LinearRegression(),
+    "decision_tree_reg": DecisionTreeRegressor(max_depth=5, min_samples_split=10, random_state=42),
+    "random_forest_reg": RandomForestRegressor(n_estimators=100, max_depth=10, random_state=42, n_jobs=-1),
+    "gradient_boosting_reg": GradientBoostingRegressor(n_estimators=100, learning_rate=0.1, max_depth=3, random_state=42),
+    "xgboost_reg": XGBRegressor(n_estimators=150, learning_rate=0.1, max_depth=5, reg_alpha=0.1, reg_lambda=1.0, random_state=42, n_jobs=-1),
+}
+
+for name, model in reg_models.items():
+    print(f"Training {name} (Regression)...")
+    model.fit(X_train_scaled, y_train_reg)
+    filename = name + ".pkl"
+    joblib.dump(model, os.path.join(export_dir, filename))
+    print(f"Exported {filename}")
+
+print("Pipeline export complete. Ready for Streamlit deployment.")

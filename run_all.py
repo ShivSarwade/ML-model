@@ -40,3 +40,16 @@ for rel_path in notebooks:
         print(f"SUCCESS: {rel_path}")
 
 print("ALL NOTEBOOKS EXECUTED SUCCESSFULLY!")
+
+print("Executing export_pipeline.py...")
+export_script = os.path.join(base_dir, "..", "export_pipeline.py")
+result = subprocess.run([sys.executable, export_script], capture_output=True, text=True)
+if result.returncode != 0:
+    print("ERROR running export_pipeline.py!")
+    print(result.stdout)
+    print(result.stderr)
+    sys.exit(1)
+else:
+    print("SUCCESS: export_pipeline.py")
+
+print("PIPELINE FULLY COMPLETE!")
