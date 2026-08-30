@@ -294,6 +294,7 @@ def build_input(feat_cols, global_mean,
         # Handle both possible column names for previous attendance
         "Previous_Lecture_Attendance":   float(sel_prev_att),
         "Previous_Lecture_Attendance_Pct": float(sel_prev_att),
+        "Last_Session_Attendance_Pct": float(sel_prev_att),
         # Handle both possible column names for exam flag
         "Week_Before_Exam":             1.0 if sel_week_before_exam else 0.0,
         "Week_Before_Exam_Flag":        1.0 if sel_week_before_exam else 0.0,
