@@ -26,48 +26,23 @@ os.makedirs(export_dir, exist_ok=True)
 train_df = pd.read_csv(os.path.join(data_dir, 'train.csv'))
 val_df = pd.read_csv(os.path.join(data_dir, 'val.csv'))
 
-# One-hot encode categorical variables for both
-train_df = pd.get_dummies(train_df, columns=['Day_of_Week', 'Subject', 'Weather', 'Time_of_Day', 'Practical_Theory'])
-val_df = pd.get_dummies(val_df, columns=['Day_of_Week', 'Subject', 'Weather', 'Time_of_Day', 'Practical_Theory'])
-
-# Align columns
-val_df = val_df.reindex(columns=train_df.columns, fill_value=0)
+# Columns are already one-hot encoded in train.csv
 
 global_mean = train_df['Attendance_Percentage'].mean()
 
-def calculate_momentum(df):
-    return (0.40 * df['Monthly_Avg_Attendance']) + (0.60 * df['Rolling_Avg_3'])
-
-train_df['Base_Momentum'] = calculate_momentum(train_df)
-binary_cols = ['Is_Post_Lunch_Class', 'Is_Holiday_Adjacent', 'Week_Before_Exam'] + [c for c in train_df.columns if c.startswith(('Weather_', 'Subject_', 'Day_of_Week_', 'Practical_Theory_', 'Time_of_Day_'))]
-
-affection_rates = {}
-for col in binary_cols:
-    if col in train_df.columns:
-        mean_when_present = train_df[train_df[col] == 1]['Attendance_Percentage'].mean()
-        weight = mean_when_present - global_mean
-        affection_rates[col] = weight if not pd.isna(weight) else 0.0
-
-def calculate_expected_and_residual(df, rates):
-    expected = calculate_momentum(df)
-    for col in rates.keys():
-        if col in df.columns:
-            expected += (df[col] * rates[col])
-    expected = expected.clip(0, 100)
-    residual = df['Attendance_Percentage'] - expected
-    return expected, residual
-
-train_df['Expected_Attendance'], train_df['Residual'] = calculate_expected_and_residual(train_df, affection_rates)
-train_df['Attendance_Class'], residual_bins = pd.qcut(train_df['Residual'], q=3, labels=['Low', 'Medium', 'High'], retbins=True)
+train_df['Attendance_Class'], attendance_bins = pd.qcut(train_df['Attendance_Percentage'], q=3, labels=['Low', 'Medium', 'High'], retbins=True)
 
 cols_to_drop = [
     'Date', 'Start_Time', 'End_Time', 'Faculty_ID', 'Semester', 'Branch', 
     'Section', 'Classroom', 'Attendance_Percentage', 'Attendance_Class', 
-    'Expected_Attendance', 'Residual', 'Base_Momentum', 'Special_Event',
-    'Assignment_Due', 'Holiday_Before_After', 'Internal_Test_Week' # If not dummy encoded
+    'Special_Event', 'Assignment_Due', 'Assignment_Due_Flag', 'Holiday_Before_After', 'Internal_Test_Week',
+    'Students_Present'
 ]
 y_train_raw = train_df['Attendance_Class']
 X_train = train_df.drop(columns=[col for col in cols_to_drop if col in train_df.columns])
+
+# Fill any NaNs with the global mean
+X_train = X_train.fillna(global_mean)
 
 # Also drop any remaining 'object' columns to be absolutely safe
 X_train = X_train.select_dtypes(exclude=['object', 'string'])
@@ -83,9 +58,8 @@ feature_columns = X_train.columns.tolist()
 # Dump metadata
 joblib.dump(scaler, os.path.join(export_dir, 'scaler.pkl'))
 joblib.dump(le, os.path.join(export_dir, 'label_encoder.pkl'))
-joblib.dump(affection_rates, os.path.join(export_dir, 'affection_rates.pkl'))
 joblib.dump(feature_columns, os.path.join(export_dir, 'feature_columns.pkl'))
-joblib.dump(residual_bins, os.path.join(export_dir, 'residual_bins.pkl'))
+joblib.dump(attendance_bins, os.path.join(export_dir, 'attendance_bins.pkl'))
 joblib.dump(global_mean, os.path.join(export_dir, 'global_mean.pkl'))
 
 print("Metadata, Scaler, and Weights exported.")
