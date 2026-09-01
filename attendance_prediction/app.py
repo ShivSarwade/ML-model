@@ -495,7 +495,7 @@ elif page == "Model Results":
 
     # Load exp.csv
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    exp_path = os.path.join(BASE_DIR, "data", "processed", "exp.csv")
+    exp_path = os.path.join(BASE_DIR, "data", "processed", "experiment_results.csv")
 
     if os.path.exists(exp_path):
         df = pd.read_csv(exp_path)

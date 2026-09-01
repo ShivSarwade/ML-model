@@ -15,20 +15,20 @@ feature_columns = joblib.load(os.path.join(ASSETS_DIR, 'feature_columns.pkl'))
 # All available models mapped to their .pkl filenames
 AVAILABLE_MODELS = {
     "Classification": {
-        "XGBoost Classifier": "xgboost.pkl",
-        "Random Forest Classifier": "random_forest.pkl",
-        "Decision Tree Classifier": "decision_tree.pkl",
-        "Logistic Regression": "logistic_regression.pkl",
-        "SVM Classifier": "svm.pkl",
-        "k-NN Classifier": "knn.pkl",
-        "Naive Bayes": "naive_bayes.pkl",
+        "Logistic Regression": "06_logistic_regression.pkl",
+        "Decision Tree Classifier": "07_decision_tree_classifier.pkl",
+        "Random Forest Classifier": "08_random_forest_classifier.pkl",
+        "SVM Classifier": "09_svm_classifier.pkl",
+        "k-NN Classifier": "10_knn_classifier.pkl",
+        "Naive Bayes": "11_naive_bayes.pkl",
+        "XGBoost Classifier": "12_xgboost_classifier.pkl",
     },
     "Regression": {
-        "Linear Regression": "linear_regression_reg.pkl",
-        "Decision Tree Regressor": "decision_tree_reg.pkl",
-        "Random Forest Regressor": "random_forest_reg.pkl",
-        "Gradient Boosting Regressor": "gradient_boosting_reg.pkl",
-        "XGBoost Regressor": "xgboost_reg.pkl",
+        "Linear Regression": "01_linear_regression.pkl",
+        "Decision Tree Regressor": "02_decision_tree_regressor.pkl",
+        "Random Forest Regressor": "03_random_forest_regressor.pkl",
+        "Gradient Boosting Regressor": "04_gradient_boosting_regressor.pkl",
+        "XGBoost Regressor": "05_xgboost_regressor.pkl",
     }
 }
 
@@ -73,7 +73,6 @@ def prepare_features(input_data):
     df = pd.DataFrame(0, index=[0], columns=feature_columns)
 
     # Numerical / direct features
-    df['Total_Enrolled'] = input_data.get('Total_Enrolled', 60)
 
     date_val = pd.to_datetime(input_data.get('Date'))
     semester_start = pd.to_datetime('2026-04-10')
